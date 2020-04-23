@@ -1,6 +1,6 @@
-# Json Server
+# Json Server for SoundCloud Flutter project
 
-### Deploy to Heroku
+## Deploy to Heroku
 
 1 . [Create your database](#create-your-database)
 
@@ -40,7 +40,7 @@ heroku logs --tail
 
 ---
 
-#### How it works
+## How it works
 
 Heroku will look for a startup-script, this is by default `npm start` so make sure you have that in your `package.json` (assuming your script is called `server.js`):
 
@@ -55,3 +55,5 @@ You also have to make changes to the port, you can't hardcode a dev-port. But yo
 ```js
 const port = process.env.PORT || 4000;
 ```
+
+## LICENSE
